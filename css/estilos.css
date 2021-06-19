@@ -1,0 +1,63 @@
+/*Default*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Cabecera #754e17*/
+header {
+    background-color: silver;
+}
+
+.cabecera {
+    display: inline-block;
+}
+
+header figure {
+    margin: 1.5px;
+}
+
+.cabecera ul {
+    list-style: none;
+    font-size: 1.8rem;
+    Position: absolute;
+    top: 0;
+    left: 90px;
+    margin: 36.5px 0px;
+}
+
+.cabecera li {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px 20px;
+}
+
+.cabecera a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Side*/
+
+
+
+/*main-content*/
+
+
+
+/*footer*/
+footer {
+    background-color: silver;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+}
