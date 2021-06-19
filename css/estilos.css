@@ -50,8 +50,11 @@ main > * {
 }
 
 .sidebar {
-    width: 160px;
+    width: 25%;
+    height: 100%;
     background-color: dimgray;
+    position: absolute;
+    left: 0px;
 }
 
 .sidebar figure {
@@ -59,19 +62,30 @@ main > * {
 }
 
 .sidebar p {
-    padding: 40px;
+    padding: 10% 40%;
     border-radius: 10px;
     background-color: white;
     text-align: center;
 }
 
 /*main-content*/
+.content {
+    position: absolute;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 25%;
+}
 
-
+.content p {
+    font-size: 1.2rem;
+}
 
 /*footer*/
 footer {
     background-color: silver;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 footer p {
