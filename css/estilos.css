@@ -45,8 +45,25 @@ header figure {
 }
 
 /*Side*/
+main > * {
+    display: inline-block;
+}
 
+.sidebar {
+    width: 160px;
+    background-color: dimgray;
+}
 
+.sidebar figure {
+    padding: 10px;
+}
+
+.sidebar p {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
 
 /*main-content*/
 
