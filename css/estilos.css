@@ -9,9 +9,19 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    display: flex;
+}
+
 /*Cabecera #754e17*/
 header {
     background-color: silver;
+    height: auto;
 }
 
 .cabecera {
@@ -22,21 +32,25 @@ header figure {
     margin: 1.5px;
 }
 
+nav {
+    flex-grow: 1;
+    align-items: center;
+}
+
 .cabecera ul {
     list-style: none;
     font-size: 1.8rem;
-    Position: absolute;
-    top: 0;
-    left: 90px;
-    margin: 36.5px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .cabecera li {
-    display: inline-block;
     padding: 8px;
     border-radius: 5px;
     background-color: white;
-    margin: 0px 20px;
 }
 
 .cabecera a {
@@ -53,7 +67,6 @@ main > * {
     width: 25%;
     height: 75%;
     background-color: dimgray;
-    position: absolute;
     left: 0px;
 }
 
@@ -70,7 +83,6 @@ main > * {
 
 /*main-content*/
 .content {
-    position: absolute;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     left: 25%;
@@ -83,7 +95,6 @@ main > * {
 /*footer*/
 footer {
     background-color: silver;
-    position: fixed;
     bottom: 0px;
     width: 100%;
 }
