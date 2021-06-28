@@ -60,12 +60,14 @@ nav {
 
 /*Side*/
 main > * {
-    display: inline-block;
+    display: flex;
 }
 
 .sidebar {
     background-color: dimgray;
-    left: 0px;
+    min-width: 78px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar figure {
@@ -73,8 +75,9 @@ main > * {
 }
 
 .sidebar p {
-    padding: 10% 40%;
-    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 5px;
     background-color: white;
     text-align: center;
 }
@@ -83,7 +86,8 @@ main > * {
 .content {
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    left: 25%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content p {
