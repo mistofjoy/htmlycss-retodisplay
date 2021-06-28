@@ -64,8 +64,6 @@ main > * {
 }
 
 .sidebar {
-    width: 25%;
-    height: 75%;
     background-color: dimgray;
     left: 0px;
 }
@@ -97,6 +95,7 @@ footer {
     background-color: silver;
     bottom: 0px;
     width: 100%;
+    justify-content: center;
 }
 
 footer p {
